@@ -1,11 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Urban-Bites</title>
 </head>
 <body>
-    
+
+  <header>
+    <h1>Urban-Bites</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to Urban-Bites Restaurant</h2>
+      <p>Fresh ingredients, delicious meals, and a warm dining experience.</p>
+      <a href="index.html">View Our Menu</a>
+    </section>
+
+    <section id="menu">
+      <h2>Our Menu</h2>
+
+      <article>
+        <h3>Grilled Chicken</h3>
+        <img src="grilled-chicken.jpeg">
+        <p>Juicy grilled chicken served with seasonal vegetables.</p>
+        <p>Ksh18</p>
+      </article>
+
+      <article>
+        <h3>Classic Beef Burger</h3>
+        <img src="beefburger.jpeg">
+        <p>A homemade beef burger with lettuce, tomato, cheese, and fries.</p>
+        <p>Ksh15</p>
+      </article>
+
+      <article>
+        <h3>Margherita Pizza</h3>
+        <img src="pizza.jpeg">
+        <p>Fresh tomatoes, mozzarella, basil, and our homemade tomato sauce.</p>
+        <p>Ksh14</p>
+      </article>
+
+      <article>
+        <h3>Vegetable Pasta</h3>
+        <img src="vegetable.jpeg">
+        <p>Fresh pasta tossed with seasonal vegetables and our special sauce.</p>
+        <p>Ksh16</p>
+      </article>
+    </section>
+
+    <section id="reservation">
+      <h2>Make a Reservation</h2>
+
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <br><br>
+
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" required>
+
+        <br><br>
+
+        <button type="submit">Reserve a Table</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 The Golden Fork. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
